@@ -18,6 +18,7 @@ cc.Class({
     },
 
     onClickHint() {
+        console.log("onClickHint")
         globalEvent.emit('HINT');
     },
 

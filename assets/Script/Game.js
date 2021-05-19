@@ -6,10 +6,7 @@ cc.Class({
 
 	properties: {
 		/** 花费的时间 */
-		usedTime: {
-			type: cc.Label,
-			default: null
-		},
+		usedTime: { type: cc.Label, default: null },
 		_usedTime: 0,
 		_isPaused: false
 	},

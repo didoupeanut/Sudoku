@@ -32,6 +32,7 @@ const Cell = cc.Class({
 	start() { },
 
 	onClickCell(event, customEventData) {
+		console.log("格子被点击了",customEventData)
 		globalEvent.emit('CELL_SELECTED', customEventData);
 	},
 

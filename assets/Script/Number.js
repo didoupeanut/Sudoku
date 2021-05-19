@@ -24,17 +24,19 @@ cc.Class({
 
 		this._isMark = false;
 		this._setColor();
-
+		// 做标记，计分
 		globalEvent.on('MARK', this._onMarked, this);
 	},
 
 	onDestroy() {
+
 		globalEvent.off('MARK', this._onMarked, this);
 	},
 
 	start() { },
 
 	onClickNumber(event, customEventData) {
+		// 数字被点击
 		globalEvent.emit('NUMBER_CLICKED', customEventData);
 	},
 
