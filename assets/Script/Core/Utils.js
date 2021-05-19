@@ -1,3 +1,4 @@
+/** 矩阵的工具类 */
 const matrixUtil = {
 	make(value = 0) {
 		return Array.from({ length: 9 }).map(() => this.makeRow(value));
