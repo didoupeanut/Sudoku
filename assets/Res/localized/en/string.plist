@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Loading</key>
+	<string>Loading</string>
+	<key>Cash</key>
+	<string>Cash</string>
+	<key>MoneyWithUnit</key>
+	<string>¥%.2f</string>
+	<key>InviteHongBaoTips</key>
+	<string>Invite friends</string>
+	<key>HomeItemMode_0</key>
+	<string>6 Blocks (6x6)</string>
+	<key>HomeItemMode_1</key>
+	<string>9 Blocks (9x9)</string>
+	<key>HomeItemMode_2</key>
+	<string>12 Blocks (12x12)</string>
+	<key>HomeItemMode_3</key>
+	<string>16 Blocks (16x16)</string>
+	<key>ModeVideoTips</key>
+	<string>You need to watch the full video to challenge this mode!</string>
+	<key>Completeness</key>
+	<string>Completeness: %d%%</string>
+	<key>HomeModeVideo</key>
+	<string>Unlock</string>
+	<key>Free</key>
+	<string>Free</string>
+	<key>Win</key>
+	<string>Get</string>
+	<key>Phone</key>
+	<string>Phone</string>
+	<key>Record</key>
+	<string>Record</string>
+	<key>NowMoney</key>
+	<string>Total</string>
+	<key>MoneyUnit</key>
+	<string>¥</string>
+	<key>HongBaoUpdateTips</key>
+	<string>Upgrade the withdrawal, increase the reward!</string>
+	<key>CashMoneyWithUnit</key>
+	<string>¥%.0f</string>
+	<key>CashBtn</key>
+	<string>Cash</string>
+	<key>CashIntro</key>
+	<string>Instructions:
+1. The withdrawal application shall be reviewed within 3 working days, and the account will be received after the review is passed;
+2. In case of cheating, you have the right to refuse payment.</string>
+	<key>UpdateHBBtn</key>
+	<string>Upgrade the withdrawal</string>
+	<key>LackOfMoney</key>
+	<string>The amount is insufficient, continue to earn!</string>
+	<key>NoCashRecord</key>
+	<string>No withdrawal record yet!</string>
+	<key>HongBaoUpdateConfirm</key>
+	<string>Upgrade the withdrawal to %d¥?</string>
+	<key>Confrim</key>
+	<string>Confrim</string>
+	<key>Cancel</key>
+	<string>Cancel</string>
+	<key>Setting</key>
+	<string>Setting</string>
+	<key>GameHongBao</key>
+	<string>Game Rewards</string>
+	<key>InviteHongBao</key>
+	<string>Invite Rewards</string>
+	<key>Music</key>
+	<string>Music</string>
+	<key>Sound</key>
+	<string>Sound</string>
+	<key>Mark</key>
+	<string>Mark</string>
+	<key>Notification</key>
+	<string>Notification</string>
+	<key>Rating</key>
+	<string>Rating</string>
+	<key>Help</key>
+	<string>Help</string>
+	<key>Logout</key>
+	<string>Logout</string>
+	<key>NotificationCloseConfirm</key>
+	<string>Sure to turn off the notification?</string>
+	<key>NotificationCloseTips</key>
+	<string>Cannot receive reward notification after closing!</string>
+	<key>LogoutTitle</key>
+	<string>Sure to log out?</string>
+	<key>Help_0_0</key>
+	<string>1. Basic Rules</string>
+	<key>Help_0_1</key>
+	<string>       Standard Sudoku: There is only one group numbers of 1 to 6/9/12/16 in every row, column and every bold frame body.
+       Irregular Sudoku: There is only one group numbers of 1 to 6/9/12/16 in every row, column and every bold frame body.
+       Diagonal Sudoku: There is only one group numbers of 1 to 6/9/12/16 in every row, column, bold frame body and every main diagonal.
+       Odd/Even Sudoku: There is only one group numbers of 1 to 6/9/12/16 in every row, column and every bold frame body. Numbers in shadow will only be odd or even.</string>
+	<key>Help_1_0</key>
+	<string>2. Input and Delate</string>
+	<key>Help_1_1</key>
+	<string>       Tap to select one empty lattice then click keyboard to input numbers.
+       Tap to select one filled empty lattice, click Delete or the same number to clear contents.</string>
+	<key>Help_2_0</key>
+	<string>3. Marker Pencil</string>
+	<key>Help_2_1</key>
+	<string>       Click marker pencil then you can use keyboard to put some possible numbers in the lattice</string>
+	<key>Help_3_0</key>
+	<string>4. Hint</string>
+	<key>Help_3_1</key>
+	<string>       Use Hint to get correct number in selected lattice.</string>
+	<key>LoginTitle</key>
+	<string>Login using WeChat!</string>
+	<key>LoginBtn</key>
+	<string>Login</string>
+	<key>Logining</key>
+	<string>Logining</string>
+	<key>LoginFailed</key>
+	<string>Login failed!</string>
+	<key>LoginCancel</key>
+	<string>Login cancelled!</string>
+	<key>LoadFailed</key>
+	<string>Data load failed, please try again later!</string>
+	<key>InviteTitle</key>
+	<string>Invite Friends</string>
+	<key>InviteNum</key>
+	<string>Invitation: %d</string>
+	<key>Invite</key>
+	<string>Invite</string>
+	<key>InviteTotalHongbao</key>
+	<string>Invite Rewards</string>
+	<key>InviteCashTips</key>
+	<string>Cash at 100, still need </string>
+	<key>InviteCashStatus</key>
+	<string>You can withdraw now!</string>
+	<key>InviteRecord</key>
+	<string>Record</string>
+	<key>InviteCashStatus_0</key>
+	<string>In the review!</string>
+	<key>InviteCashStatus_1</key>
+	<string>Approved!</string>
+	<key>InviteCashStatus_2</key>
+	<string>Review failed!</string>
+	<key>UnActiveTips</key>
+	<string>Download APP login!</string>
+	<key>CashLackOf</key>
+	<string>You can withdraw at 100¥, only %.2f¥ short!</string>
+	<key>WeChat</key>
+	<string>Wechat</string>
+	<key>WeChatTimeline</key>
+	<string>Timeline</string>
+	<key>InviteCashTitle</key>
+	<string>Cash</string>
+	<key>InviteCashMsg</key>
+	<string>Withdrawal amount: 100¥</string>
+	<key>InviteCashItem_0</key>
+	<string>Account</string>
+	<key>InviteCashItem_1</key>
+	<string>Real name</string>
+	<key>InviteCashItem_2</key>
+	<string>Phone number</string>
+	<key>InviteCashConfirm</key>
+	<string>Confirm</string>
+	<key>InviteCashIptTips</key>
+	<string>Please perfect the information!</string>
+	<key>InviteCashLack</key>
+	<string>Insufficient amount for withdrawal!</string>
+	<key>InviteCashDid</key>
+	<string>Withdrawal request received, please wait for processing!</string>
+	<key>InviteCashOK</key>
+	<string>Withdrawal request received, waiting for review!</string>
+	<key>InviteHongBaoTitle</key>
+	<string>Total Reward</string>
+	<key>UnActive</key>
+	<string>Inactive</string>
+	<key>InviteBtnWithNum</key>
+	<string>Invite (%d/5)</string>
+	<key>SpinTitle</key>
+	<string>Lucky</string>
+	<key>ExchangePhone</key>
+	<string>Exchange</string>
+	<key>ExchangeAddress</key>
+	<string>Address&gt;&gt;</string>
+	<key>SpinItem_0</key>
+	<string>¥100</string>
+	<key>SpinItem_1</key>
+	<string>iPhone</string>
+	<key>SpinItem_2</key>
+	<string>Debris x1</string>
+	<key>SpinItem_3</key>
+	<string>Reward</string>
+	<key>SpinItem_4</key>
+	<string>Debris x2</string>
+	<key>SpinItem_5</key>
+	<string>Debris x5</string>
+	<key>SpinBtn</key>
+	<string>Good Luck</string>
+	<key>SpinIntro</key>
+	<string>Remaining number of draws: %d</string>
+	<key>SpinLaterTips</key>
+	<string>Time until the next draw</string>
+	<key>SpinError</key>
+	<string>There seems to be a problem!</string>
+	<key>SpinVideoTips</key>
+	<string>Need to watch the full video to get the reward!</string>
+	<key>SpinLackOf</key>
+	<string>Lack of debris, continue to accumulate!</string>
+	<key>SpinFull</key>
+	<string>Today&apos;s lucky draw is full!</string>
+	<key>VideoNotReady</key>
+	<string>The video is being prepared, please wait!</string>
+	<key>PassHongBaoOpenTitle</key>
+	<string>Congratulations</string>
+	<key>PassHongBaoOpenMoney</key>
+	<string>Now get ¥%.2f</string>
+	<key>PassHongBaoGet</key>
+	<string>Get</string>
+	<key>BigHongBao</key>
+	<string>Big Reward</string>
+	<key>BigHongBaoDist</key>
+	<string>%d more times to get big reward!</string>
+	<key>Unlock</key>
+	<string>Unlock</string>
+	<key>UnlockVideoTips</key>
+	<string>Need to watch the full video to unlock the level!</string>
+	<key>UnlockByVideoFull</key>
+	<string>Unlock times full today!</string>
+	<key>PauseTitle</key>
+	<string>Game Pause</string>
+	<key>PauseContinue</key>
+	<string>Continue</string>
+	<key>PauseRestart</key>
+	<string>Restart</string>
+	<key>GameTime</key>
+	<string>Time %s</string>
+	<key>GameError</key>
+	<string>Error %d/%d</string>
+	<key>HongBao</key>
+	<string>Reward</string>
+	<key>Undo</key>
+	<string>Undo</string>
+	<key>Erase</key>
+	<string>Erase</string>
+	<key>Hint</key>
+	<string>Hint</string>
+	<key>UnSelect</key>
+	<string>Please select the operated item!</string>
+	<key>HintVideoTips</key>
+	<string>Need to watch the full video to get the answer!</string>
+	<key>NewbieHongBaoTips</key>
+	<string>— a newbie award —</string>
+	<key>NewbieHongBaoGet</key>
+	<string>Get</string>
+	<key>PassHongBaoTips</key>
+	<string>watch ad to get</string>
+	<key>PassHongBaoTitle</key>
+	<string>Congratulations</string>
+	<key>PassHongBaoMsg</key>
+	<string>Good Luck!</string>
+	<key>HongBaoVideoTips</key>
+	<string>Need to watch the full video to get the reward!</string>
+	<key>HongBaoUpdateTitle</key>
+	<string>Update cash</string>
+	<key>HongBaoUpdateBtn</key>
+	<string>Update</string>
+	<key>OverTitle</key>
+	<string>Successful</string>
+	<key>OverTime</key>
+	<string>Time %s</string>
+	<key>OverNext</key>
+	<string>Next</string>
+	<key>RateTitle</key>
+	<string>Please give us rating!</string>
+	<key>RateBtn</key>
+	<string>Confirm</string>
+	<key>RateTips</key>
+	<string>Please click the number of stars you want to give!</string>
+	<key>ErasePreset</key>
+	<string>Can&apos;t delete preset number!</string>
+	<key>CannotUndo</key>
+	<string>It&apos;s already in the initial state!</string>
+	<key>ReviveTitle</key>
+	<string>Game Over</string>
+	<key>ReviveMsg</key>
+	<string>The error number exceeds the limit!</string>
+	<key>ReviveConfrim</key>
+	<string>Revive</string>
+	<key>ReviveCancel</key>
+	<string>Give up</string>
+	<key>ReviveVideoTips</key>
+	<string>Need to watch the full video to get a new chance!</string>
+	<key>NoNetworkTitle</key>
+	<string>No network connection!</string>
+	<key>NoNetworkIntro</key>
+	<string>Allow access to the network, you can start the game
+Go to Setting &gt; Fun Sudoku &gt; Wireless data &gt;WLAN with cellular network</string>
+	<key>NoNetworkRetry</key>
+	<string>Retry</string>
+	<key>LocalNotificationAlertBody_1</key>
+	<string>[New Reward] Get it quickly!</string>
+	<key>LocalNotificationAlertBody_2</key>
+	<string>Time limit to receive rewards!</string>
+	<key>LocalNotificationAlertBody_3</key>
+	<string>You have a reward due soon!</string>
+	<key>TC_1</key>
+	<string>Tap a lattice to select it.</string>
+	<key>TC_2</key>
+	<string>Click keyboard to input numbers in the place.</string>
+	<key>TC_3</key>
+	<string>Each number can only appear once in each row.</string>
+	<key>TC_4</key>
+	<string>Each number can only appear once in each column.</string>
+	<key>TC_5</key>
+	<string>Each number can only appear once in each bold frame body.</string>
+	<key>TC_6</key>
+	<string>Tap to switch the keyboard function </string>
+	<key>TC_7</key>
+	<string>Enter Marker function </string>
+	<key>TC_8</key>
+	<string>Tap to input the possible numbers</string>
+	<key>TC_9</key>
+	<string>Yo can mark more than one possible numbers</string>
+	<key>TC_10</key>
+	<string>Tap to clear contents </string>
+	<key>TC_11</key>
+	<string>Click &apos;Hint&apos; to get correct number in selected lattice</string>
+	<key>TC_12</key>
+	<string>Click &apos;Undo&apos; to gradually undo the previous action</string>
+	<key>TC_13</key>
+	<string>Ok, let the games begin!</string>
+	<key>TC_14</key>
+	<string>Pay attention to these irregular shape. Each number can only appear once in each bold frame body.</string>
+	<key>TC_15</key>
+	<string>Pay attention to the two main diagonals. Each number can only appear once in each main diagonal.</string>
+	<key>TC_16</key>
+	<string>Pay attention to these shadows. Numbers in shadow can only be odd or even.</string>
+</dict>
+</plist>

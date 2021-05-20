@@ -36,6 +36,8 @@ cc.Class({
 
 	onLoad() {
 		this._initBoard()
+		// 预加载
+		cc.resources.preload(['biji/On.png', 'biji/Off.png'], cc.SpriteFrame)
 
 		globalEvent.on('CELL_SELECTED', this._onCellSelected, this)
 		globalEvent.on('NUMBER_CLICKED', this._onNumberClicked, this)
@@ -232,29 +234,10 @@ cc.Class({
 	},
 
 	_setImageMark() {
-		const __this = this
-		console.log("isMarked", this._isMarked)
-		if (this._isMarked) {
-			cc.resources.load('resources/On.png', cc.SpriteFrame, null, function (err, spriteFrame) {
-				console.log("err", err)
-				var node = new cc.Node("New Sprite")
-				var sprite = node.addComponent(cc.Sprite)
-				sprite.spriteFrame = spriteFrame
-				node.parent = __this.imageMark.node
-				console.log("spriteFrame1", spriteFrame)
-			})
-			console.log("this.imageMark.spriteFrame1", this.imageMark.spriteFrame)
-		} else {
-			cc.resources.load('resources/Off.png', cc.SpriteFrame, null, function (err, spriteFrame) {
-				console.log("err", err)
-				var node = new cc.Node("New Sprite")
-				var sprite = node.addComponent(cc.Sprite)
-				sprite.spriteFrame = spriteFrame
-				node.parent = __this.imageMark.node
-				console.log("spriteFrame2", spriteFrame)
-			})
-			console.log("this.imageMark.spriteFrame2", this.imageMark.spriteFrame)
-		}
+		const name = this._isMarked ? 'On' : 'Off'
+		cc.resources.load(`biji/${name}`, cc.SpriteFrame, null, (err, asset) => {
+			this.imageMark.getComponent(cc.Sprite).spriteFrame = asset
+		})
 	},
 
 	_onHint() {
